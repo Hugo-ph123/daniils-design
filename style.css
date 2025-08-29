@@ -1,32 +1,57 @@
-body{
+body {
     background-color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-
-.header {
-background-color: black ;
-color: white ;
-display:flex ;
-align-items: center ;
-justify-content: space-between ;
-
-}
-
-
-.header-left {
-     margin-left: 2%;
-}
-
-.header-right li {
-
-    list-style: none;
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
-.header-right {
+.header-left{
+margin-left: 2%;
+}
 
+.header-right{
     margin-right: 2%;
+}
+
+.header-right li{
+    list-style: none;
+}
+.bild {
+    text-align: center;
+    margin: 150px auto;
+}
+.right-half{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background-color: white;
+    color: black;
+
+}
+.left-half{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    clear: both;
+    background-color: black;
+}
+
+.text{
+    text-align: center;
+    margin: 250px;
+    white-space: nowrap;
+
+}
+
+.bild img{
+    border-radius: 100%;
 }
